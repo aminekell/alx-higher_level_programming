@@ -1,28 +1,15 @@
-#!/usr/bin/python3
-
-
 import random
 
+# توليد رقم عشوائي باستخدام random.randint(-10، 10)
+number = random.randint(-10، 10)
 
-number = random.randint(-10, 10)
-
-
+# عرض الرقم وفحص علامته
 print(f"{number} ", end='')
 
-
 if number > 0:
-
-
-  print("is positive")
-
-
+    print("إيجابي")
 elif number == 0:
-
-
-  print("is zero")
-
-
+    print("صفر")
 else:
+    print("سالب")
 
-
-  print("is negative")
