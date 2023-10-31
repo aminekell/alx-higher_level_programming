@@ -1,14 +1,11 @@
-#!/usr/bin/python3
-# Using a single print function with string formatting
+# Using a single print function without .format()
 # Using only one loop and no variable storage
 
 # ASCII value for 'a'
 start = ord('a')
 
-# Loop through ASCII values, using string formatting to print characters
+# Loop through ASCII values, printing characters using string concatenation
 for i in range(start, start + 26):
-    print(f"{chr(i)}", end='')
-
-# Adding a print statement to pass pycodestyle validation for a single print statement without string formatting
+    print(chr(i), end='')
 print()
 
