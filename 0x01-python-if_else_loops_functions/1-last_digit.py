@@ -3,7 +3,7 @@ import random
 
 number = random.randint(-10000, 10000)
 
-last_digit = abs(number) % 10
+last_digit = math.fmod(number) % 10
 
 
 print("Last digit of {} is {} ".format(number, last_digit), end="")
