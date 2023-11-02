@@ -1,7 +1,14 @@
 #!/usr/bin/python3
-def add(a, b):
-    return a + b
+# Store the values in variables a and b
 a = 1
 b = 2
-add_0 = add(a ,b)
-print(a,    "+",    b,  "=",    add_0)
+
+# Import the function add from the file add_0.py
+from add_0 import add
+
+# Calculate the sum
+result = add(a, b)
+
+# Print the formatted output
+print(f"{a} + {b} = {result}")
+
