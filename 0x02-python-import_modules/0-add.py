@@ -5,7 +5,6 @@ b = 2
 
 # Import the function add from the file add_0.py
 from add_0 import add
-
 # Calculate the sum
 result = add(a, b)
 
